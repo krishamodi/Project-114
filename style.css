@@ -1,0 +1,39 @@
+h3{
+    font-size: 20px !important;
+}
+
+body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn-info:hover{
+    background-color: beige;
+}
+
+canvas{
+    animation-name: krisha;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes krisha{
+
+  0%{
+    box-shadow: 1px 2px 20px rgb(158, 1, 179);
+  }  
+
+  20%{
+    box-shadow: 1px 2px 20px rgb(184, 83, 231);
+  }  
+
+  40%{
+    box-shadow: 1px 2px 20px rgb(197, 153, 218);
+  }  
+
+
+  60%{
+    box-shadow: 1px 2px 20px rgb(210, 194, 231);
+  }  
+}
